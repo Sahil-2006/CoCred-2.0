@@ -1,0 +1,76 @@
+Image 1: Student & Faculty Modules
+​1. Student
+​Upload physical certificate (Photo)
+​e-certificate (Can crawl to verify)
+​Certificates to Pdf
+​Points per certificate (Varies on certificate)
+​Verification layer (Crypto-signing)
+​Bundle
+​Dashboard
+​Optional:
+​Digital Id card / QR generator
+​Offline uploading
+​Backend:
+​Auto compression
+​Verification request
+​2. Faculty / Club
+​Verify certificates (Cannot reject bigger certificates)
+​Issue certificate
+​Magic link access
+​Dashboard
+​Rejection reason
+​Less dependence on faculty (somewhat)
+​Bulk verify / Issuance (say for an event)
+​Image 2: Admin & Backend Integration
+​3. Admin / Placement
+​Option: Event - Management
+​Add or remove students & faculty
+​Search a student
+​Complete overview of college
+​Filtering, custom metrics evaluation
+​Watermark - custom
+​Export data - god mode
+​Reporting / flagging
+​Leader board
+​Backend
+​Integration with Harbor (Likely refers to a specific tool or container registry, handwriting is slightly cursive)
+​Image 3: Advanced Backend & Future Scope
+​Backend
+​Image forensics
+​Possible but Idle
+​Github
+​LinkedIn
+​Leetcode (The code/rank & staff)
+​Also Social / Community Events
+​Like NSS, NGO, etc.
+​Also other tech events / internships
+​Note: "But not need now!"
+
+students : 
+1.⁠ ⁠one click portfolio generation 
+2.⁠ ⁠Opportunity Recommendation Engine - based on the students interest 
+teachers : 
+1.⁠ ⁠LoR (Letter of Recommendation) Assistant - help teachers auto-draft detailed Letters of Recommendation
+
+
+step 1 would be to work on the mvp , with the product at the hand we can go talk to people and get more insignts . we will focus on the core features now . let me share a list , see if it suffices or if we need to add or remove anything 
+1.⁠ ⁠Student Module
+Smart Upload: Snap a photo of a certificate, tag it (e.g., "Workshop," "Sports"), and hit send.
+
+Verified Resume Generator: One click to auto-generate a professional CV containing only faculty-approved achievements.
+
+Activity Credit Meter: A progress bar showing "Points Earned" vs. "Points Needed for Graduation."
+
+2.⁠ ⁠Faculty Module
+Bulk Verify: Select 50 students from one event and approve them all in a single click.
+
+One-Tap Rejection: Reject bad uploads instantly with preset reasons (e.g., "Image Blurry," "Wrong Date").
+
+3.⁠ ⁠Placement Cell (Admin)
+"God Mode" Search: Filter students by specific combos (e.g., "3rd Year" + "Java Skill" + "Hackathon Winner").
+
+Instant Export: Download the verified list of eligible candidates to Excel/CSV in seconds for recruiters.
+
+4.⁠ ⁠The "X-Factor" (Tech USP)
+Tamper-Proof "Blue Tick": Every approved certificate gets a cryptographic hash. If a student tries to Photoshop it later, the system detects it instantly.
+
